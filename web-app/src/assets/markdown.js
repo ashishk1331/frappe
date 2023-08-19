@@ -10,7 +10,7 @@ export const initial_text = [
     "   ### heading 3",
     "+ Link => [ashishk](https://twitter.com/AshishK1331)",
     "+ Image => \n",
-    "   ![Itachi's Tsukuyomi](https://i.pinimg.com/564x/47/37/62/473762a0f626282be278cf34e8f38040.jpg)",
+    "   ![Itachi's Tsukuyomi](https://i.pinimg.com/564x/cf/cb/3e/cfcb3ee88e8f51a963b8c7f773fa48a3.jpg)",
     "+ quote =>",
     "   > \"Success is not final, failure is not fatal: It is the courage to continue that counts.\" - Winston Churchill",
     "+ unordered lists =>",

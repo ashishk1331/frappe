@@ -9,6 +9,10 @@ const Flex = styled("div")`
     justify-content: center;
     width: 100vw;
     height: 100vh;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 `;
 
 const TextArea = styled("textarea")`
@@ -20,6 +24,12 @@ const TextArea = styled("textarea")`
     padding: 1.4em;
     font-size: 1.2em;
     resize: none;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        width: -webkit-fill-available;
+        height: 100%;
+    }
 `;
 
 const Divider = styled("div")`
@@ -28,6 +38,12 @@ const Divider = styled("div")`
     width: 6px;
     background-color: ${({ theme }) => theme.colors[300]};
     opacity: 0.4;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        width: -webkit-fill-available;
+        height: 6px;
+    }
 `;
 
 const Display = styled("div")`
@@ -36,6 +52,12 @@ const Display = styled("div")`
     height: -webkit-fill-available;
     padding: 1.4em;
     overflow-y: scroll;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        width: -webkit-fill-available;
+        height: 100%;
+    }
 `;
 
 export default function (props) {

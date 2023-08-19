@@ -70,3 +70,26 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+img {
+  width: 100%;
+}
+
+code {
+  background-color: #1a1a1a;
+}
+
+pre {
+  padding: 1.2em;
+  background-color: #1a1a1a;
+}
+
+blockquote {
+  border-left: 3px solid #865DFF;
+  margin-left: 0;
+  padding-left: 1.2em;
+}
+
+hr {
+  border-color: #865DFF;
+}
