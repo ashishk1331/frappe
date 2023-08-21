@@ -24,6 +24,7 @@ const TextArea = styled("textarea")`
     padding: 1.4em;
     font-size: 1.2em;
     resize: none;
+    line-height: 1.6em;
 
     @media (max-width: 768px) {
         width: 100%;
@@ -62,6 +63,7 @@ const Display = styled("div")`
 
 export default function (props) {
     const [reactContent, setMarkdownSource] = useRemark();
+    const [markdown, setMarkdown] = useState(initial_text);
 
     useEffect(() => {
         setMarkdownSource(initial_text);
@@ -71,7 +73,11 @@ export default function (props) {
         <Flex>
             <TextArea
                 placeholder="type markdown here..."
-                onChange={(e) => setMarkdownSource(e.target.value)}
+                value={markdown}
+                onChange={(e) => {
+                    setMarkdownSource(e.target.value);
+                    setMarkdown(e.target.value);
+                }}
             />
             <Divider />
             <Display>{reactContent}</Display>

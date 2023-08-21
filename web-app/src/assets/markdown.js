@@ -1,4 +1,8 @@
 export const initial_text = [
+    "# This is *Markdown*.",
+    "This will be the implementation ground for the markdown parser, that I'll build. At max, I'll try to craft one. ~ AshishK",
+    "![Itachi's Tsukuyomi](https://i.pinimg.com/564x/cf/cb/3e/cfcb3ee88e8f51a963b8c7f773fa48a3.jpg)",
+    "> \"I'm not great at the advice. Can I interest you in a sarcastic comment? some cheese?\" ~ Chandler Bing",
     "# Should I call this one frappe?",
     "This project is to display the might of my own markdown parser which I'll be building during the active period of [Buildspace](https://buildspace.so/).",
     "## All the features I want to incorporate in initial version",
@@ -9,8 +13,7 @@ export const initial_text = [
     "   ## heading 2",
     "   ### heading 3",
     "+ Link => [ashishk](https://twitter.com/AshishK1331)",
-    "+ Image => \n",
-    "   ![Itachi's Tsukuyomi](https://i.pinimg.com/564x/cf/cb/3e/cfcb3ee88e8f51a963b8c7f773fa48a3.jpg)",
+    "+ Image => Like the above photo.",
     "+ quote =>",
     "   > \"Success is not final, failure is not fatal: It is the courage to continue that counts.\" - Winston Churchill",
     "+ unordered lists =>",
